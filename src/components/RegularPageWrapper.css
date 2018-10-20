@@ -1,0 +1,11 @@
+.page-photo {
+    height: 300px;
+    background: #CCC;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-wraper {
+    padding: 20px 0;
+}

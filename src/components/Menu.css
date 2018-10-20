@@ -1,0 +1,57 @@
+.menu-container {
+    border: 1px solid #CCC;
+}
+
+.nav-bar {
+    background: #FFF;
+}
+
+nav {
+    min-height: 100px;
+}
+
+nav.bg-light {
+    background: #FFF !important;
+}
+
+nav .nav-link {
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: 15px;
+}
+
+a.logo-link:hover {
+    text-decoration: none;
+}
+
+.logo {
+    text-align: right;
+    width: 280px;
+}
+
+.logo .lead {
+    color: #0b6a9e;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.logo .secondary {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 5pt;
+    color: #99a2a7;
+}
+
+.secondary-menu button {
+    text-transform: uppercase;
+    color: #99a2a7;
+}
+
+.secondary-menu button:hover, .secondary-menu button.active {
+    text-decoration: none;
+    color: #000;
+}
+
+nav .dropdown-menu {
+    top: 66px;
+}
