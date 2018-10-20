@@ -6,7 +6,6 @@ import "./App.css";
 class App extends Component {
 
   render() {
-    const { t } = this.props;
     return (
       <div>
         <Menu />
