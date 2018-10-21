@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { translate } from "react-i18next";
 import LanguageMenu from './LanguageMenu';
-import "./Menu.css"
+import "./Menu.css";
 import {
     Collapse,
     Navbar,
@@ -35,7 +35,7 @@ class Menu extends React.Component {
     render() {
         const { t } = this.props;
         return (
-            <div className="nav-bar">
+            <div className="nav-bar fixed-top">
                 <div className="container">
                     <Navbar color="light" light expand="xl" className="d-flex justify-content-between p-0">
                         <NavLink className="logo-link" to="/">

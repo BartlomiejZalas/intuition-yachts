@@ -1,0 +1,13 @@
+.portfolio-container {
+    padding: 50px 0;
+    text-align: center;
+}
+ .portfolio-box-image {
+    overflow: hidden;
+}
+.portfolio-box-image img {
+    transition: all .6s;
+}
+.portfolio-box-image:hover img {
+    transform: scale(1.1);
+}

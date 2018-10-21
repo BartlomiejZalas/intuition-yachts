@@ -28,7 +28,16 @@ i18n
           pages: {
             about: { title: 'About', content: 'About us.' },
             projects: { title: 'Projects' },
-            yachts: { title: 'Yachts' },
+            yachts: { title: 'Yachts', 
+              tram: {
+                name: "CAT B-16", 
+                description: "A conceptual water-tram project. It is a 16-meter catamaran designed for transporting 50 people."
+              }, 
+              eco14: {
+                name: "ECO-14",
+                description: ""
+              }
+            },
             interiorDesgin: { title: 'Interior Desgin' },
             models3D: { title: '3D Models' },
             technicalDrawings: { title: 'Technical Drawings' },
@@ -56,7 +65,16 @@ i18n
           pages: {
             about: { title: 'O Nas', content: 'About us.' },
             projects: { title: 'Projekty' },
-            yachts: { title: 'Jachty' },
+            yachts: { title: 'Jachty', 
+              tram: {
+                name: "CAT B -16", 
+                description: "Koncepcyjny projekt tramwaju wodnego. Jest nim 16-metrowy katamaran przeznaczony do transportu 50 osób."
+              }, 
+              eco14: {
+                name: "ECO-14",
+                description: ""
+              }
+            },
             interiorDesgin: { title: 'Projektowanie Wnętrz' },
             models3D: { title: 'Modele 3D' },
             technicalDrawings: { title: 'Rysunki Techniczne' },
