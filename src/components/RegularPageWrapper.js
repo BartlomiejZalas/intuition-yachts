@@ -8,16 +8,16 @@ const RegularPageWrapper = ({ children, title }) => (
         </div>
         <div className="container">
             <div className="row">
-                <div className="col content-wraper">
+                <div className="col py-3">
                     <h2 className="display-4 py-3">{title}</h2><hr />
                     {children}
                 </div>
             </div>
         </div>
-        <footer class="footer text-center">
+        <footer className="footer text-center">
             <div className="container py-3">
                 <hr />
-                <small class="text-muted">Copyright &copy; Intuition Yachts Design Studio 2018</small>
+                <small className="text-muted">Copyright &copy; Intuition Yachts Design Studio 2018</small>
             </div>
         </footer>
     </div>

@@ -79,8 +79,9 @@ class Menu extends React.Component {
                                     <NavLink className="nav-link" activeClassName="active" to="/contact">{t('menu.contact')}</NavLink>
                                 </NavItem>
                             </Nav>
+                            <LanguageMenu className="collapsed"/>
                         </Collapse>
-                        <LanguageMenu />
+                        <LanguageMenu className="full-width"/>
                     </Navbar>
                 </div>
             </div>

@@ -27,6 +27,8 @@ a.logo-link:hover {
 .logo {
     text-align: right;
     width: 280px;
+    margin-top: 20px;
+    margin-bottom: 21px;
 }
 
 .logo .lead {
@@ -42,6 +44,46 @@ a.logo-link:hover {
     color: #99a2a7;
 }
 
+nav .secondary-menu.collapsed {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    nav .navbar-collapse {
+        width: 100%;
+        text-align: left;
+    }
+    nav .secondary-menu {
+        text-align: center;
+        margin: 5px 0;
+    }
+    nav .dropdown-menu {
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+    nav .dropdown-item {
+        padding: 0 15px;
+    }
+    nav .secondary-menu.full-width {
+        display: none;
+    }
+    nav .secondary-menu.collapsed {
+        display: block;
+    }
+}
+@media screen and (max-width: 400px) {
+    .logo {
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav .navbar-toggler {
+        margin: 10px;
+    }
+}
+
 .secondary-menu button {
     text-transform: uppercase;
     color: #99a2a7;
@@ -55,3 +97,4 @@ a.logo-link:hover {
 nav .dropdown-menu {
     top: 66px;
 }
+
