@@ -2,6 +2,7 @@ import React from "react";
 import { translate } from "react-i18next";
 import RegularPageWrapper from "../../components/RegularPageWrapper";
 import "./Yachts.css";
+import 'react-image-lightbox/style.css';
 
 const Yachts = ({ t }) => {
 
@@ -11,9 +12,9 @@ const Yachts = ({ t }) => {
     image: require("./tram-min.png")
   },
   {
-    title: t('pages.yachts.eco14.name'),
-    description: t('pages.yachts.eco14.description'),
-    image: require("./eco-14-min.png")
+    title: t('pages.yachts.yacht.name'),
+    description: t('pages.yachts.yacht.description'),
+    image: require("./yacht.jpg")
   },
   {
     title: t('pages.yachts.eco14.name'),
@@ -26,13 +27,15 @@ const Yachts = ({ t }) => {
     const cards = [];
     for (let i = 0; i < yachts.length; i++) {
       const card = (
-        <div className="col-md-6 portfolio-box-container" key={i}>
-          <div className="portfolio-box-image">
-            <img src={yachts[i].image} alt={yachts[i].title} className="img-fluid"/>
-          </div>
-          <div className="hidden">
-            <h3>{yachts[i].title}</h3>
-            <p>{yachts[i].description}</p>
+        <div className="col-md-6 my-3" key={i}>
+          <div className="portfolio-container">
+            <img src={yachts[i].image} alt={yachts[i].title} className="img-fluid" />
+            <div className="overlay">
+              <div className="text">
+                <h3>{yachts[i].title}</h3>
+                {yachts[i].description ? <p className="d-none d-sm-block d-md-none d-lg-block">{yachts[i].description}</p> : ""}
+              </div>
+            </div>
           </div>
         </div>
       );

@@ -44,6 +44,10 @@ nav .secondary-menu.collapsed {
     display: none;
 }
 
+nav .submenu {
+    width: 250px;
+}
+
 @media screen and (max-width: 1200px) {
     nav .navbar-collapse {
         width: 100%;

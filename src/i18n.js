@@ -36,6 +36,10 @@ i18n
               eco14: {
                 name: "ECO-14",
                 description: ""
+              },
+              yacht: {
+                name: "Yacht",
+                description: "Lorem ipsum dolor sit amet."
               }
             },
             interiorDesgin: { title: 'Interior Desgin' },
@@ -73,6 +77,10 @@ i18n
               eco14: {
                 name: "ECO-14",
                 description: ""
+              },
+              yacht: {
+                name: "Yacht",
+                description: "Lorem ipsum dolor sit amet."
               }
             },
             interiorDesgin: { title: 'Projektowanie Wnętrz' },

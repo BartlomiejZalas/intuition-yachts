@@ -1,5 +1,5 @@
 import React from "react";
-import { translate } from "react-i18next";
+import { withNamespaces } from "react-i18next";
 import RegularPageWrapper from "../../components/RegularPageWrapper"
 
 const Projects = ({ t }) => {
@@ -9,4 +9,4 @@ const Projects = ({ t }) => {
     </RegularPageWrapper>
   );
 }
-export default translate()(Projects);
+export default withNamespaces()(Projects);

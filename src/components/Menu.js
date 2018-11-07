@@ -9,10 +9,9 @@ import {
     NavbarToggler,
     Nav,
     NavItem,
-    UncontrolledDropdown,
+    Dropdown,
     DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    DropdownMenu
 } from 'reactstrap';
 
 class Menu extends React.Component {
@@ -21,14 +20,23 @@ class Menu extends React.Component {
         super(props);
 
         this.toggle = this.toggle.bind(this);
+        this.toggleSubmenu = this.toggleSubmenu.bind(this);
+
         this.state = {
-            isOpen: false
+            isOpen: false,
+            submenuOpen: false
         };
     }
 
     toggle() {
         this.setState({
             isOpen: !this.state.isOpen
+        });
+    }
+
+    toggleSubmenu() {
+        this.setState({
+            submenuOpen: !this.state.submenuOpen
         });
     }
 
@@ -53,25 +61,17 @@ class Menu extends React.Component {
                                 <NavItem>
                                     <NavLink className="nav-link" activeClassName="active" to="/projects">{t('menu.projects')}</NavLink>
                                 </NavItem>
-                                <UncontrolledDropdown nav inNavbar>
+                                <Dropdown isOpen={this.state.submenuOpen} toggle={this.toggleSubmenu} nav inNavbar>
                                     <DropdownToggle nav caret>
                                         {t('menu.services.services')}
                                     </DropdownToggle>
                                     <DropdownMenu left="true">
-                                        <DropdownItem>
-                                            <NavLink className="nav-link" activeClassName="active" to="/services/yachts">{t('menu.services.yachts')}</NavLink>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <NavLink className="nav-link" activeClassName="active" to="/services/interior-design">{t('menu.services.inside')}</NavLink>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <NavLink className="nav-link" activeClassName="active" to="/services/models-3d">{t('menu.services.models3d')}</NavLink>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <NavLink className="nav-link" activeClassName="active" to="/services/technical-drawings">{t('menu.services.technicaldrawings')}</NavLink>
-                                        </DropdownItem>
+                                        <NavLink className="nav-link" activeClassName="active" to="/services/yachts" onClick={this.toggleSubmenu}>{t('menu.services.yachts')}</NavLink>
+                                        <NavLink className="nav-link" activeClassName="active" to="/services/interior-design" onClick={this.toggleSubmenu}>{t('menu.services.inside')}</NavLink>
+                                        <NavLink className="nav-link" activeClassName="active" to="/services/models-3d" onClick={this.toggleSubmenu}>{t('menu.services.models3d')}</NavLink>
+                                        <NavLink className="nav-link" activeClassName="active" to="/services/technical-drawings" onClick={this.toggleSubmenu}>{t('menu.services.technicaldrawings')}</NavLink>
                                     </DropdownMenu>
-                                </UncontrolledDropdown>
+                                </Dropdown>
                                 <NavItem>
                                     <NavLink className="nav-link" activeClassName="active" to="/partners">{t('menu.partners')}</NavLink>
                                 </NavItem>
@@ -79,9 +79,9 @@ class Menu extends React.Component {
                                     <NavLink className="nav-link" activeClassName="active" to="/contact">{t('menu.contact')}</NavLink>
                                 </NavItem>
                             </Nav>
-                            <LanguageMenu className="collapsed"/>
+                            <LanguageMenu className="collapsed" />
                         </Collapse>
-                        <LanguageMenu className="full-width"/>
+                        <LanguageMenu className="full-width" />
                     </Navbar>
                 </div>
             </div>
