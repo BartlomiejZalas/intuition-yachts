@@ -60,7 +60,11 @@ nav .submenu {
     nav .dropdown-menu {
         border: 0;
         padding: 0;
-        margin: 0;
+        margin: 0 0 0 20px;
+    }
+    nav .dropdown-menu a.nav-link {
+        padding: 5px 0;
+        font-size: 0.9em;
     }
     nav .dropdown-item {
         padding: 0 15px;
@@ -96,5 +100,8 @@ nav .submenu {
 
 nav .dropdown-menu {
     top: 66px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    min-width: 14rem;
 }
 
