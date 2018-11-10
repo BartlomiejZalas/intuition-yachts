@@ -18,24 +18,19 @@ class Menu extends React.Component {
 
     constructor(props) {
         super(props);
-
-        this.toggle = this.toggle.bind(this);
-        this.close = this.close.bind(this);
-        this.toggleSubmenu = this.toggleSubmenu.bind(this);
-
         this.state = {
             isOpen: false,
             submenuOpen: false
         };      
     }
 
-    toggle() {
+    toggle = () => {
         this.setState({
             isOpen: !this.state.isOpen
         });
     }
 
-    close() {
+    close = () => {
         this.setState({
             isOpen: false,
             submenuOpen: false
@@ -43,7 +38,7 @@ class Menu extends React.Component {
         window.scrollTo(0, 0);
     }
 
-    toggleSubmenu() {
+    toggleSubmenu = () => {
         this.setState({
             submenuOpen: !this.state.submenuOpen
         });
@@ -88,9 +83,9 @@ class Menu extends React.Component {
                                     <NavLink className="nav-link" onClick={this.close} activeClassName="active" to="/contact">{t('menu.contact')}</NavLink>
                                 </NavItem>
                             </Nav>
-                            <LanguageMenu className="collapsed"/>
+                            <LanguageMenu className="collapsed" closeMenu={this.close}/>
                         </Collapse>
-                        <LanguageMenu className="full-width"/>
+                        <LanguageMenu className="full-width" closeMenu={this.close}/>
                     </Navbar>
                 </div>
             </div>
