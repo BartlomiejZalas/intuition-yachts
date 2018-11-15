@@ -1,5 +1,6 @@
 import React from "react";
 import { translate } from "react-i18next";
+import SocialIcons from "./SocialIcons/SocialIcons";
 
 const LanguageMenu = ({ i18n, className, closeMenu }) => {
     const languages = ['en', 'pl'];
@@ -11,10 +12,15 @@ const LanguageMenu = ({ i18n, className, closeMenu }) => {
 
     return (
         <div className={"align-self-start secondary-menu " + className}>
-            {languages.map(l => {
-                return <button key={l} onClick={changeLanguageHandler.bind(this, l)}
-                    className={"btn btn-link btn-sm py-0 " + (i18n.language === l ? 'active' : '')}>{l}</button>;
-            })}
+            <div>
+                {languages.map(l => {
+                    return <button key={l} onClick={changeLanguageHandler.bind(this, l)}
+                        className={"btn btn-link btn-sm py-0 " + (i18n.language === l ? 'active' : '')}>{l}</button>;
+                })}
+            </div>
+            <div>
+                <SocialIcons />
+            </div>
         </div>
     );
 }

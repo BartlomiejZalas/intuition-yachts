@@ -1,0 +1,45 @@
+.social-icons {
+    background: #FFF;
+}
+
+.social-icons a {
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 12px;
+    margin: .5rem .1rem;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    opacity: .8;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+@media (min-width: 1200px) {
+    .social-icons {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 200;
+    }
+    .social-icons a {
+        display: block;
+        margin: 0;
+        padding: 16px;
+        font-size: 20px;
+        border-radius: 0;
+    }
+}
