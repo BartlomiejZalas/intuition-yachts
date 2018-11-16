@@ -26,7 +26,24 @@ i18n
             contact: "Contact"
           },
           pages: {
-            about: { title: 'About', content: 'About us.' },
+            about: { title: 'About', content: `
+            <p>Intuition Yachts jest to działalność założona przez 
+            absolwentkę Wydziału Oceanotechniki i Okrętownictwa Politechniki Gdańskiej - Martę Annę 
+            Zawadzką.</p>
+
+            <p>Dzięki pasji, wykształceniu oraz zdobytemu doświadczeniu możemy zaoferować Państwu 
+            profesjonalne usługi przy użyciu najlepszej jakości sprzętu oraz specjalistycznemu 
+            oprogramowaniu. Używamy programów takich jak: AutoCAD, Rhinoceros,  V-Ray, 
+            Flamingo, Orca 3D, SSC oraz MultiSurf.</p>
+            
+            <p>Dzięki zdobywaniu doświadczenia zaróno w kraju jak i za granicą jesteśmy w stanie spełnić 
+            wymagania różnego rodzaju klientów, oferując przy tym szeroki pakiet usług.</p>
+            
+            <p>Projekty realizujemy na terenie Polski oraz za granicą w zależności od wymagań klienta.
+            <br>
+            Część wykonanych projektów podczas zdobywania doświadczenia można obejrzeć w naszym Portfolio:</p>
+            
+            <a href="#">TU BĘDZIE PDF DO ŚCIĄGNIĘCIA</a>` },
             projects: { title: 'Projects' },
             yachts: { title: 'Yachts', 
               tram: {
@@ -67,7 +84,24 @@ i18n
             contact: "Kontakt"
           },
           pages: {
-            about: { title: 'O Nas', content: 'About us.' },
+            about: { title: 'O Nas', content: `
+            <p>Intuition Yachts jest to działalność założona przez 
+            absolwentkę Wydziału Oceanotechniki i Okrętownictwa Politechniki Gdańskiej - Martę Annę 
+            Zawadzką.</p>
+
+            <p>Dzięki pasji, wykształceniu oraz zdobytemu doświadczeniu możemy zaoferować Państwu 
+            profesjonalne usługi przy użyciu najlepszej jakości sprzętu oraz specjalistycznemu 
+            oprogramowaniu. Używamy programów takich jak: AutoCAD, Rhinoceros,  V-Ray, 
+            Flamingo, Orca 3D, SSC oraz MultiSurf.</p>
+            
+            <p>Dzięki zdobywaniu doświadczenia zaróno w kraju jak i za granicą jesteśmy w stanie spełnić 
+            wymagania różnego rodzaju klientów, oferując przy tym szeroki pakiet usług.</p>
+            
+            <p>Projekty realizujemy na terenie Polski oraz za granicą w zależności od wymagań klienta.
+            <br>
+            Część wykonanych projektów podczas zdobywania doświadczenia można obejrzeć w naszym Portfolio:</p>
+            
+            <a href="#">TU BĘDZIE PDF DO ŚCIĄGNIĘCIA</a>` },
             projects: { title: 'Projekty' },
             yachts: { title: 'Jachty', 
               tram: {

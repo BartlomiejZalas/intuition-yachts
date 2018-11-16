@@ -16,6 +16,11 @@ nav .nav-link {
     font-size: 15px;
 }
 
+.navbar-light .navbar-nav .nav-link.active{
+    color: #0b6a9e;
+    font-weight: 600;
+}
+
 a.logo-link:hover {
     text-decoration: none;
 }
@@ -86,9 +91,6 @@ nav .submenu {
     nav .navbar-toggler {
         margin: 10px;
     }
-}
-.secondary-menu{
-    /* displa */
 }
 .secondary-menu button {
     text-transform: uppercase;
