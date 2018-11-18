@@ -1,55 +1,61 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { translate } from "react-i18next";
 import RegularPageWrapper from "../../components/RegularPageWrapper";
+import Project from './Project';
 import "./Projects.css";
 import 'react-image-lightbox/style.css';
 
-const Yachts = ({ t }) => {
+const Projects = ({ t, match }) => {
 
-  const yachts = [{
-    title: t('pages.yachts.tram.name'),
-    description: t('pages.yachts.tram.description'),
-    image: require("./tram-min.png")
-  },
-  {
-    title: t('pages.yachts.yacht.name'),
-    description: t('pages.yachts.yacht.description'),
-    image: require("./yacht.jpg")
-  },
-  {
-    title: t('pages.yachts.eco14.name'),
-    description: t('pages.yachts.eco14.description'),
-    image: require("./eco-14-min.png")
-  }
-  ];
+  const yachts = ['eco14', 'catb6'].map(key => {
+    return {
+      id: key,
+      title: t('pages.projects.yachts.' + key + '.name'),
+      description: t('pages.projects.yachts.' + key + '.description'),
+      shortDescription: t('pages.projects.yachts.' + key + '.shortDescription'),
+      image: require('./images/' + key + '.jpg')
+    }
+  });
 
-  const createCards = (yachts) => {
-    const cards = [];
-    for (let i = 0; i < yachts.length; i++) {
-      const card = (
-        <div className="col-md-6 my-3" key={i}>
-          <div className="portfolio-container">
-            <img src={yachts[i].image} alt={yachts[i].title} className="img-fluid" />
-            <div className="overlay">
-              <div className="text">
-                <h3>{yachts[i].title}</h3>
-                {yachts[i].description ? <p className="d-none d-sm-block d-md-none d-lg-block">{yachts[i].description}</p> : ""}
-              </div>
+  let projectsPage = null;
+  let pageTitle = null;
+
+  console.log(match);
+
+  if (match.params.project) {
+    const project = yachts.filter(p => p.id === match.params.project)[0];
+
+    projectsPage = (<Project project={project} />);
+    pageTitle = project.title;
+  } else {
+    projectsPage = yachts.map(yacht =>
+      (
+        <div key={yacht.id}>
+          <div className="row">
+            <div className="col-12 col-sm-4 align-self-center pb-2">
+              <Link to={'/projects/' + yacht.id}>
+                <img src={yacht.image} alt={yacht.title} className="img-fluid" />
+              </Link>
+            </div>
+            <div className="col-12 col-sm-8 product-description">
+              <h3>{yacht.title}</h3>
+              <p className="pb-3">{yacht.shortDescription}</p>
+              <Link to={'/projects/' + yacht.id} className="btn btn-link more-button" >{t('pages.projects.more')}</Link>
             </div>
           </div>
+          <div className="row">
+            <div className="col-12"> <hr /></div>
+          </div>
         </div>
-      );
-      cards.push(card);
-    }
-    return cards;
+      )
+    );
+    pageTitle = t('pages.projects.title');
   }
-
   return (
-    <RegularPageWrapper title={t('pages.projects.title')}>
-      <div className="row">
-        {createCards(yachts)}
-      </div>
+    <RegularPageWrapper title={pageTitle}>
+      <div>{projectsPage}</div>
     </RegularPageWrapper>
   );
 }
-export default translate()(Yachts);
+export default translate()(Projects);

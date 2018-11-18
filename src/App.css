@@ -3,3 +3,7 @@ body {
   background: #EEE;
   padding-top: 100px;
 }
+
+a, .btn-link {
+  color: #0b6a9e;
+}

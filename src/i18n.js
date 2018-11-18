@@ -67,7 +67,43 @@ i18n
             <p>Wszystkie usługi wykonujemy za pomocą specjalistycznego oprogramowania takiego jak, AutoCAD, 
             Rhinoceros,  V-Ray, Flamingo, Orca 3D oraz MultiSurf. </p>
             ` },
-            projects: { title: 'Projekty' },
+            projects: {
+              title: 'Projekty',
+              more: 'więcej',
+              yachts: {
+                title: 'Jachty',
+                eco14: {
+                  name: 'ECO-14',
+                  shortDescription: `ECO-14 jest to projekt koncepcyjny ekologicznego jachtu motorowego o napędzie 
+                  elektrycznym.  Głównymi założeniami tej jednostki była rekreacyjna żegluga na drogach śródlądowej 
+                  i przybrzeżnych, czteroosobowej załogi.`,
+                  description: `<p>ECO-14 jest to projekt koncepcyjny ekologicznego jachtu motorowego o napędzie 
+                  elektrycznym.  Głównymi założeniami tej jednostki była rekreacyjna żegluga na drogach śródlądowej 
+                  i przybrzeżnych, czteroosobowej załogi. Współautorami projektu jest Marta Zawadzka i Julisz 
+                  Strawiński. </p>
+                  <p>Ponadto wykonano cztery różne aranżacje wnętrz w następujących wariantach:</p>
+                  <ol>
+                    <li> Jacht turystyczny, rodzinny prywatny dla 4-osobowej załogi (2 dorosłych i 2 dzieci); </li>
+                    <li> Jacht czarterowy dla 6-osobowej załogi; </li>
+                    <li> Jacht przystosowany do żeglugi osób niepełnosprawnych; </li>
+                    <li> Jacht konferencyjny dla 12-osobowej załogi. </li>
+                  </ol>
+                  
+                  <p>Pierwsza koncepcja projektu jest skonczona i gotowa do realizacji lub też może być odpowiednio 
+                  dostosowana do potrzeb i wymagać klienta.</p>
+                  
+                  <p>Aktualnie trwają prace nad następną wersją kształtu kadłuba oraz stylizacją zewnętrznej.</p>
+                  `
+                },
+                catb6: {
+                  name: 'CAT B -16',
+                  shortDescription: `Koncepcyjny projekt tramwaju wodnego. Jest nim 16-metrowy katamaran 
+                  przeznaczony do transportu 50 osób.`,
+                  description: `Koncepcyjny projekt tramwaju wodnego. Jest nim 16-metrowy katamaran przeznaczony 
+                  do transportu 50 osób.`
+                }
+              }
+            },
             partners: {
               title: 'Partnerzy', content: `
             <h2>Partnerzy</h2>
