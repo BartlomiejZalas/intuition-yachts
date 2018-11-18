@@ -1,5 +1,5 @@
 import React from 'react';
-import AuxC from '../../components/Aux';
+import AuxC from '../../components/AuxC';
 import { translate } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
