@@ -8,7 +8,7 @@ import 'react-image-lightbox/style.css';
 
 const Projects = ({ t, match }) => {
 
-  const yachts = ['eco14', 'catb6'].map(key => {
+  const yachts = ['eco14'].map(key => {
     return {
       id: key,
       title: t('pages.projects.yachts.' + key + '.name'),

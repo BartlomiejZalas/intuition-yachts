@@ -94,13 +94,6 @@ i18n
                   
                   <p>Aktualnie trwają prace nad następną wersją kształtu kadłuba oraz stylizacją zewnętrznej.</p>
                   `
-                },
-                catb6: {
-                  name: 'CAT B -16',
-                  shortDescription: `Koncepcyjny projekt tramwaju wodnego. Jest nim 16-metrowy katamaran 
-                  przeznaczony do transportu 50 osób.`,
-                  description: `Koncepcyjny projekt tramwaju wodnego. Jest nim 16-metrowy katamaran przeznaczony 
-                  do transportu 50 osób.`
                 }
               }
             },
