@@ -7,7 +7,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{backgroundImage: 'url('+require('./bg.jpg')+')'}}>
         <Menu />
         <Content />
       </div>

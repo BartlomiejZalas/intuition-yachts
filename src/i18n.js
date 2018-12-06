@@ -122,13 +122,13 @@ i18n
               title: 'Partnerzy', content: `
             <h2>Partnerzy</h2>
             <p class="py-2">
-            <img src="{{partner1Logo}}" alt="" title="Yacht Studio Strawiński S.C."/>
+            <a href="http://www.yacht-studio.pl/pl-index.html" target="_blank">
+              <img src="{{partner1Logo}}" alt="" title="Yacht Studio Strawiński S.C."/>
+            </a>
             </p>
             <h2>Rekomendacje</h2>
             <ul>
               <li>Julisz Strawiński</li>
-              <li>Sebastian Allebrodt</li>
-              <li>Javier Jaudenes</li>
             </ul>
             ` },
             contact: {
