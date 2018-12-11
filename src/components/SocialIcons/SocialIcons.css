@@ -27,6 +27,11 @@
     color: white;
 }
 
+.instagram {
+    background: #125688;
+    color: white;
+}
+
 @media (min-width: 1200px) {
     .social-icons {
         position: fixed;
