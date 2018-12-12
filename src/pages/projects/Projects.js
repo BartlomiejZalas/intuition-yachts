@@ -9,11 +9,51 @@ import 'react-image-lightbox/style.css';
 const Projects = ({ t, match }) => {
 
   const yachts = [
-    { id: 'eco14', images: [require('./images/eco14.jpg'), require('./images/eco14.jpg')], parentId: null, menu: ['eco14-private', 'eco14-charter', 'eco14-for-disabled', 'eco14-conference'] },
-    { id: 'eco14-private', images: [], parentId: 'eco14' },
-    { id: 'eco14-charter', images: [], parentId: 'eco14' },
-    { id: 'eco14-for-disabled', images: [], parentId: 'eco14' },
-    { id: 'eco14-conference', images: [], parentId: 'eco14' }
+    {
+      id: 'eco14', images: [
+        require('./images/eco-14/eco-14e.jpg'),
+        require('./images/eco-14/eco-14b.jpg'),
+        require('./images/eco-14/eco-14c.jpg'),
+        require('./images/eco-14/eco-14d.jpg'),
+        require('./images/eco-14/eco-14-top.jpg'),
+      ], parentId: null, menu: ['eco14-private', 'eco14-charter', 'eco14-for-disabled', 'eco14-conference']
+    },
+    {
+      id: 'eco14-private', images: [
+        require('./images/eco-14-private/1.jpg'),
+        require('./images/eco-14-private/2.jpg'),
+        require('./images/eco-14-private/3.jpg'),
+        require('./images/eco-14-private/4.jpg'),
+        require('./images/eco-14-private/5.jpg'),
+      ], parentId: 'eco14'
+    },
+    {
+      id: 'eco14-charter', images: [
+        require('./images/eco-14-charter/1.jpg'),
+        require('./images/eco-14-charter/2.jpg'),
+        require('./images/eco-14-charter/3.jpg'),
+        require('./images/eco-14-charter/4.jpg'),
+        require('./images/eco-14-charter/5.jpg'),
+      ], parentId: 'eco14'
+    },
+    {
+      id: 'eco14-for-disabled', images: [
+        require('./images/eco-14-for-disabled/1.jpg'),
+        require('./images/eco-14-for-disabled/2.jpg'),
+        require('./images/eco-14-for-disabled/3.jpg'),
+        require('./images/eco-14-for-disabled/4.jpg'),
+        require('./images/eco-14-for-disabled/5.jpg'),
+      ], parentId: 'eco14'
+    },
+    {
+      id: 'eco14-conference', images: [
+        require('./images/eco-14-conference/1.jpg'),
+        require('./images/eco-14-conference/2.jpg'),
+        require('./images/eco-14-conference/3.jpg'),
+        require('./images/eco-14-conference/4.jpg'),
+        require('./images/eco-14-conference/5.jpg'),
+      ], parentId: 'eco14'
+    }
   ].map(y => {
     const projectBreadcrumb = { to: '/projects', title: t('menu.projects') };
     const main = y.parentId === null;
