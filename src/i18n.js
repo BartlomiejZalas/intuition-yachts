@@ -38,24 +38,9 @@ i18n
               more: 'more',
               yachts: {
                 title: 'Yachts',
-                eco14: {
-                  name: 'ECO-14',
-                  shortDescription: `ECO-14 is a conceptual design of a 14-meter ecological motor yacht with electric drive system. The main assumptions are recreational sailing on inland and coastal waters. The co-authors of the project are: Marta Zawadzka and Juliusz Strawiński.`,
+                'eco14-private': {
+                  name: 'Private tourist and family yacht for a 4-crew members',
                   description: `
-                  <p>ECO-14 is a conceptual design of a 14-meter ecological motor yacht with electric drive system. The main assumptions are recreational sailing on inland and coastal waters. The co-authors of the project are: Marta Zawadzka and Juliusz Strawiński.</p>
-                  <p>At least two concepts are planned that differ in the shape of the hull and external styling. The "ECO-14" line was created with the thought of sailing in comfortable conditions. Thanks to the specially selected electric drive system, silent vibration-free operation of the engine is possible, and the lack of exhaust emissions allows reaching the innermost corners of the world protected by the environment.</p>
-                  <p>The first design concept is finished and ready for implementation. However, it can also be adapted to the needs and requirements of the client.</p>
-                  <p>Four different interior designs were made for the first concept:</p>
-                  <ol>
-                  <li>Private tourist and family yacht for a 4-crew members;</li>
-                  <li>Charter yacht for a 6-crew members;</li>
-                  <li>Yacht adapted for the navigation of disabled persons;</li>
-                  <li>A conference yacht for a crew of 12 people.</li>
-                  </ol>
-                  <p>The yacht has easy access to the interior of the superstructure from both the bow deck and the aft deck. The stern deck offers a huge space for comfortable sitting on sofas at tables or sunbathing. It is also possible to eat meals outdoors with an additional folding table and storage chairs in the hold under the stern deck.</p>
-                  <p>Work on the next version of the shape of the hull and external stylization is currently in progress.</p>
-
-                  <h2 class="display-6">Private tourist and family yacht for a 4-crew members</h2>
                   <p>A concept created for a peaceful, recreational family vacation. The interior is designed so that each member of the crew can enjoy their own, comfortable space. Consists of:</p>
                   <ul>
                   <li>wheelhouse</li>
@@ -67,8 +52,11 @@ i18n
                   <li>small bow deck</li>
                   <li>large stern deck</li>
                   </ul>
-                  
-                  <h2 class="display-6">Charter yacht for a 6-crew members</h2>
+                  `
+                },
+                'eco14-charter': {
+                  name: 'Charter yacht for a 6-crew members',
+                  description: `
                   <p>The interior is designed based on the possibility of yacht charter for comfortable recreational tourism. A six-person crew can rest on a yacht equipped with:
                   <ul>
                   <li>wheelhouse</li>
@@ -78,8 +66,11 @@ i18n
                   <li>small bow deck</li>
                   <li>large stern deck</li>
                   </ul>
-
-                  <h2 class="display-6">Yacht adapted for the navigation of disabled persons</h2>
+                  `
+                },
+                'eco14-for-disabled': {
+                  name: 'Yacht adapted for the navigation of disabled persons',
+                  description: `
                   <p>Nowadays it is becoming more and more popular to adapt the environment to easy use, from all resources, by people with disabilities. This also applies to sailing. Therefore, this task was also undertaken in our studio. The concept of interior arrangement for disabled people intended for day sailing for a crew of 6 was designed. It consists of:
                   <ul>
                   <li>wheelhouse</li>
@@ -89,8 +80,11 @@ i18n
                   <li>small bow deck</li>
                   <li>large stern deck</li>
                   </ul>
-
-                  <h2 class="display-6">Conference yacht for a crew of 12 people</h2>
+                  `
+                },
+                'eco14-conference': {
+                  name: 'Conference yacht for a crew of 12 people',
+                  description: `
                   <p>Until recently, untypical concept of the boat was a conference yacht intended for corporate business meetings. Due to the fact that it is becoming more and more popular, our Studio decided to present interior design for conference purposes for a crew of 12 people. It consists of:
                   <ul>
                   <li>wheelhouse</li>
@@ -100,6 +94,22 @@ i18n
                   <li>small bow deck</li>
                   <li>large stern deck</li>
                   </ul>
+                  `
+                },
+                eco14: {
+                  name: 'ECO-14',
+                  menuDescription: 'Four different interior designs were made for the first concept:',
+                  "menu-eco14-private": 'Private tourist and family yacht for a 4-crew members;',
+                  "menu-eco14-charter": 'Charter yacht for a 6-crew members;',
+                  "menu-eco14-for-disabled": 'Yacht adapted for the navigation of disabled persons;',
+                  "menu-eco14-conference": 'A conference yacht for a crew of 12 people.',
+                  shortDescription: `ECO-14 is a conceptual design of a 14-meter ecological motor yacht with electric drive system. The main assumptions are recreational sailing on inland and coastal waters. The co-authors of the project are: Marta Zawadzka and Juliusz Strawiński.`,
+                  description: `
+                  <p>ECO-14 is a conceptual design of a 14-meter ecological motor yacht with electric drive system. The main assumptions are recreational sailing on inland and coastal waters. The co-authors of the project are: Marta Zawadzka and Juliusz Strawiński.</p>
+                  <p>At least two concepts are planned that differ in the shape of the hull and external styling. The "ECO-14" line was created with the thought of sailing in comfortable conditions. Thanks to the specially selected electric drive system, silent vibration-free operation of the engine is possible, and the lack of exhaust emissions allows reaching the innermost corners of the world protected by the environment.</p>
+                  <p>The first design concept is finished and ready for implementation. However, it can also be adapted to the needs and requirements of the client.</p>
+                  <p>The yacht has easy access to the interior of the superstructure from both the bow deck and the aft deck. The stern deck offers a huge space for comfortable sitting on sofas at tables or sunbathing. It is also possible to eat meals outdoors with an additional folding table and storage chairs in the hold under the stern deck.</p>
+                  <p>Work on the next version of the shape of the hull and external stylization is currently in progress.</p>
                   `
                 }
               }
@@ -207,25 +217,9 @@ i18n
               more: 'więcej',
               yachts: {
                 title: 'Jachty',
-                eco14: {
-                  name: 'ECO-14',
-                  shortDescription: `ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. `,
+                'eco14-private': {
+                  name: 'Jacht prywatny turystyczno-rodzinny dla 4-osobowej załogi',
                   description: `
-                  <p>ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. </p>
-                  <p>Przewidziane są przynajmniej dwie koncepcje różniące się kształtem kadłuba oraz stylizacją zewnętrzną. Linia „ECO-14” stworzona zos­tała z myślą o żegludze w komfortowych warunkach. Dzięki specjalnie dobranemu elektrycznemu systemowi napędowi, możliwa jest cicha bezwibracyjna praca silnika, a brak emisji spalin pozwala na dotarcie do najskrytszych zakątków świata objętych ochroną środowis­ka.</p>
-                  <p>Pierwsza koncepcja projektu jest skończona i gotowa do realizacji. Aczkolwiek może też być odpowiednio dostosowywana do potrzeb i wymagań klienta.</p>
-                  <p>Dla pierwszej koncepcji wykonano cztery różne aranżacje wnętrz:</p>
-                  <ol>
-                  <li>Jacht prywatny turystyczno-rodzinny dla 4-osobowej załogi; </li>
-                  <li>Jacht czarterowy dla 6-osobowej załogi; </li>
-                  <li>Jacht przystosowany do żeglugi osób niepełnosprawnych; </li>
-                  <li>Jacht konferencyjny dla 12-osobowej załogi. </li>
-                  </ol>
-                  <p>Jacht posiada łatwy dostęp do wnętrza nadbudówki zarówno z pokładu dziobowego, jak i rufowego. Pokład rufowy oferuje ogromną przestrzeń umożliwiającą wygodne siedzenie na sofach przy stolikach lub opalanie się. Możliwe jest również spożywanie posiłków na zewnątrz przy dodatkowym rozkładanym stole i krzesłach magazynowanych w ładowni pod pokładem rufowym.</p>
-                  <p>Aktualnie trwają prace nad następną wersją kształtu kadłuba oraz stylizacją zewnętrzną.</p>
-                  
-                  
-                  <h2 class="display-6">Jacht prywatny turystyczno-rodzinny dla 4-osobowej załogi</h2>
                   <p>Koncepcja stworzona z myślą o spokojnym, rekreacyjnym wypoczynku rodzinnym. Wnętrze zaprojektowane tak, aby każdy z członków załogi mógł cieszyć się własną, komfortową przestrzenią.</p>
                   <p>Składa się z:</p>
                   <ul>
@@ -238,8 +232,11 @@ i18n
                   <li>małego pokładu dziobowego </li>
                   <li>dużego pokładu rufowego </li>
                   </ul>
-                  
-                  <h2 class="display-6">Jacht czarterowy dla 6-osobowej załogi</h2>
+                  `
+                },
+                'eco14-charter': {
+                  name: 'Jacht czarterowy dla 6-osobowej załogi',
+                  description: `
                   <p>Wnętrze zaprojektowane w oparciu o umożliwienie czarteru jachtu do komfortowej turystyki rekreacyjnej. Sześcioosobowa załoga może wypocząć na jachcie wyposażonym w:</p>
                   <ul>
                   <li>sterówkę</li>
@@ -249,8 +246,11 @@ i18n
                   <li>mały pokład dziobowy </li>
                   <li>duży pokład rufowy </li>
                   </ul>
-
-                  <h2 class="display-6">Jacht przystosowany do żeglugi osób niepełnosprawnych</h2>
+                  `
+                },
+                'eco14-for-disabled': {
+                  name: 'Jacht przystosowany do żeglugi osób niepełnosprawnych',
+                  description: `
                   <p>W dzisiejszych czasach coraz bardziej popularne stało się przystosowywanie środowiska do łatwego korzystania, ze wszystkich zasobów, przez osoby niepełnosprawne. Odnosi się to również do żeglugi. Dlatego, też w naszym studio podjęto się tego zadania. Zaprojektowano koncepcję aranżacji wnętrza dla osób niepełnosprawnych przeznaczoną do żeglugi dziennej dla 6-osobowej załogi. W jej skład wchodzi:</p>
                   <ul>
                   <li>sterówka</li>
@@ -260,8 +260,11 @@ i18n
                   <li>mały pokład dziobowy</li>
                   <li>duży pokład rufowy </li>
                   </ul>
-
-                  <h2 class="display-6">Jacht konferencyjny dla 12-osobowej załogi</h2>
+                  `
+                },
+                'eco14-conference': {
+                  name: 'Jacht konferencyjny dla 12-osobowej załogi',
+                  description: `
                   <p>Do niedawna nietypową koncepcją jednostki był jacht konferencyjny przeznaczony do firmowych spotkań biznesowych. Ze względu na to, iż staje się to coraz bardziej popularne, w naszym Studio zdecydowano się na przedstawienie projektu aranżacji wnętrza do celów konferencyjnych dla 12-osobowej załogi.  Składa się on z:</p>
                   <ul>
                   <li>sterówki</li>
@@ -271,6 +274,24 @@ i18n
                   <li>małego pokładu dziobowego </li>
                   <li>dużego pokładu rufowego </li>
                   </ul>
+                  `
+                },
+                eco14: {
+                  name: 'ECO-14',
+                  menuDescription: 'Dla pierwszej koncepcji wykonano cztery różne aranżacje wnętrz:',
+                  "menu-eco14-private": 'Jacht prywatny turystyczno-rodzinny dla 4-osobowej załogi;',
+                  "menu-eco14-charter": 'Jacht czarterowy dla 6-osobowej załogi;',
+                  "menu-eco14-for-disabled": 'Jacht przystosowany do żeglugi osób niepełnosprawnych; ',
+                  "menu-eco14-conference": 'Jacht konferencyjny dla 12-osobowej załogi.',
+                  shortDescription: `ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. `,
+                  description: `
+                  <p>ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. </p>
+                  <p>Przewidziane są przynajmniej dwie koncepcje różniące się kształtem kadłuba oraz stylizacją zewnętrzną. Linia „ECO-14” stworzona zos­tała z myślą o żegludze w komfortowych warunkach. Dzięki specjalnie dobranemu elektrycznemu systemowi napędowi, możliwa jest cicha bezwibracyjna praca silnika, a brak emisji spalin pozwala na dotarcie do najskrytszych zakątków świata objętych ochroną środowis­ka.</p>
+                  <p>Pierwsza koncepcja projektu jest skończona i gotowa do realizacji. Aczkolwiek może też być odpowiednio dostosowywana do potrzeb i wymagań klienta.</p>
+                  
+
+                  <p>Jacht posiada łatwy dostęp do wnętrza nadbudówki zarówno z pokładu dziobowego, jak i rufowego. Pokład rufowy oferuje ogromną przestrzeń umożliwiającą wygodne siedzenie na sofach przy stolikach lub opalanie się. Możliwe jest również spożywanie posiłków na zewnątrz przy dodatkowym rozkładanym stole i krzesłach magazynowanych w ładowni pod pokładem rufowym.</p>
+                  <p>Aktualnie trwają prace nad następną wersją kształtu kadłuba oraz stylizacją zewnętrzną.</p>                 
                   `
                 }
               }

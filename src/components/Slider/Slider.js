@@ -8,7 +8,7 @@ import {
 
 import './Slider.css';
 
-const images = ['boats.jpg', 'cabin.jpg', 'salon.jpg', 'eco-14.jpg']
+const images = ['boats.jpg', 'cabin.jpg', 'salon.jpg', 'eco-14.jpg', 'eco-14-top.jpg']
 const items = images.map((img, i) => {
     return {
         src: require('./images/' + img),
