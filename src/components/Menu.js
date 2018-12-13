@@ -68,17 +68,6 @@ class Menu extends React.Component {
                                 <NavItem>
                                     <NavLink className="nav-link" onClick={this.close} to="/services">{t('menu.services')}</NavLink>
                                 </NavItem>
-                                {/* <Dropdown isOpen={this.state.submenuOpen} toggle={this.toggleSubmenu} nav inNavbar>
-                                    <DropdownToggle nav caret>
-                                        {t('menu.services.services')}
-                                    </DropdownToggle>
-                                    <DropdownMenu left="true">
-                                        <NavLink className="nav-link" onClick={this.close} to="/services/yachts">{t('menu.services.yachts')}</NavLink>
-                                        <NavLink className="nav-link" onClick={this.close} to="/services/interior-design">{t('menu.services.inside')}</NavLink>
-                                        <NavLink className="nav-link" onClick={this.close} to="/services/models-3d">{t('menu.services.models3d')}</NavLink>
-                                        <NavLink className="nav-link" onClick={this.close} to="/services/technical-drawings">{t('menu.services.technicaldrawings')}</NavLink>
-                                    </DropdownMenu>
-                                </Dropdown> */}
                                 <NavItem>
                                     <NavLink className="nav-link" onClick={this.close} to="/partners">{t('menu.partners')}</NavLink>
                                 </NavItem>

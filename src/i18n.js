@@ -146,6 +146,8 @@ i18n
               title: 'Contact',
               contactdata: 'Contact Details',
               contactform: 'Contact Form',
+              sendMessageError: 'ERROR: Message has not been sent',
+              sendMessageSuccess:'Your message has been sent. Thank you.',
               form: {
                 name: 'Name',
                 email: 'Email',
@@ -309,6 +311,8 @@ i18n
               title: 'Kontakt',
               contactdata: 'Dane kontaktowe',
               contactform: 'Formularz kontaktowy',
+              sendMessageError: 'BŁĄD: Wiadomośc nie została wysłana.',
+              sendMessageSuccess:'Wiadomość wysłana. Dziękujemy.',
               form: {
                 name: 'Imię i Nazwisko',
                 email: 'Email',

@@ -2,10 +2,17 @@ import React, { Component } from "react";
 import { translate } from "react-i18next";
 import RegularPageWrapper from "../../components/RegularPageWrapper";
 import Input from './Input';
+import axios from 'axios';
+import { Alert } from 'reactstrap';
+
+import './Contact.css';
 
 class Contact extends Component {
 
   state = {
+    messageSent: false,
+    messageError: false,
+    messageLoading: false,
     form: {
       name: {
         value: '',
@@ -37,13 +44,20 @@ class Contact extends Component {
 
   submitHandler = e => {
     e.preventDefault();
-    const message = {
-      toName: this.state.form.name.value,
-      toEmail: this.state.form.email.value,
-      subject: this.state.form.subject.value,
-      message: this.state.form.message.value
-    };
-    console.log(message);
+    this.setState({ messageLoading: true });
+    const params = new URLSearchParams();
+    params.append('name', this.state.form.name.value);
+    params.append('email', this.state.form.email.value);
+    params.append('subject', this.state.form.subject.value);
+    params.append('message', this.state.form.message.value);
+    axios.post('https://intuition-yachts.com/mail-api/sendMail.php', params)
+      .then(res => {
+        this.setState({ messageSent: true, messageLoading: false });
+        console.log('Message sent', res);
+      }).catch(e => {
+        this.setState({ messageError: true, messageLoading: false });
+        console.log(e);
+      });
   }
 
   changedInputHandler = (event, inputId) => {
@@ -54,10 +68,7 @@ class Contact extends Component {
     formUpdated[inputId] = fieldUpdated;
     fieldUpdated.valid = fieldUpdated.value === '' ? false : true;
 
-    this.setState({
-      ...this.state,
-      form: formUpdated
-    })
+    this.setState({ form: formUpdated })
   }
 
   isFormReadyToSubmit = () => {
@@ -81,6 +92,21 @@ class Contact extends Component {
       </div>
     ));
 
+    const errorMessage = this.state.messageError ? <Alert color="danger">{this.props.t('pages.contact.sendMessageError')}</Alert> : null;
+    const successMessage = this.state.messageSent ? <Alert color="success">{this.props.t('pages.contact.sendMessageSuccess')}</Alert> : null;
+    const loadingMessage = this.state.messageLoading ? <div class="loader">Loading...</div> : null;
+    const form = !this.state.messageError && !this.state.messageSent && !this.state.messageLoading ? (
+      <form>
+        {inputs}
+        <button className="btn btn-primary"
+          onClick={e => this.submitHandler(e)}
+          disabled={!this.isFormReadyToSubmit()}
+        >
+          {this.props.t('pages.contact.form.send')}
+        </button>
+      </form>
+    ) : null;
+
     return (
       <RegularPageWrapper title={this.props.t('pages.contact.title')}>
         <div className="row">
@@ -90,15 +116,10 @@ class Contact extends Component {
           </div>
           <div className="col-md-6">
             <h2 className="py-2">{this.props.t('pages.contact.contactform')}</h2>
-            <form>
-              {inputs}
-              <button className="btn btn-primary" 
-              onClick={e => this.submitHandler(e)}
-              disabled={!this.isFormReadyToSubmit()}
-              >
-                {this.props.t('pages.contact.form.send')}
-              </button>
-            </form>
+            {errorMessage}
+            {successMessage}
+            {loadingMessage}
+            {form}
           </div>
         </div>
       </RegularPageWrapper>
