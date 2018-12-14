@@ -21,8 +21,8 @@ const Projects = ({ t, match }) => {
     {
       id: 'eco14-private', images: [
         require('./images/eco-14-private/3.jpg'),
-        require('./images/eco-14-private/2.jpg'),
         require('./images/eco-14-private/4.jpg'),
+        require('./images/eco-14-private/2.jpg'),
         require('./images/eco-14-private/5.jpg'),
         require('./images/eco-14-private/1.jpg'),
       ], parentId: 'eco14'
