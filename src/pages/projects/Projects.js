@@ -21,37 +21,37 @@ const Projects = ({ t, match }) => {
     {
       id: 'eco14-private', images: [
         require('./images/eco-14-private/3.jpg'),
-        require('./images/eco-14-private/1.jpg'),
         require('./images/eco-14-private/2.jpg'),
         require('./images/eco-14-private/4.jpg'),
         require('./images/eco-14-private/5.jpg'),
+        require('./images/eco-14-private/1.jpg'),
       ], parentId: 'eco14'
     },
     {
       id: 'eco14-charter', images: [
         require('./images/eco-14-charter/2.jpg'),
-        require('./images/eco-14-charter/1.jpg'),
         require('./images/eco-14-charter/3.jpg'),
         require('./images/eco-14-charter/4.jpg'),
         require('./images/eco-14-charter/5.jpg'),
+        require('./images/eco-14-charter/1.jpg'),
       ], parentId: 'eco14'
     },
     {
       id: 'eco14-for-disabled', images: [
         require('./images/eco-14-for-disabled/4.jpg'),
-        require('./images/eco-14-for-disabled/1.jpg'),
-        require('./images/eco-14-for-disabled/2.jpg'),
         require('./images/eco-14-for-disabled/3.jpg'),
         require('./images/eco-14-for-disabled/5.jpg'),
+        require('./images/eco-14-for-disabled/2.jpg'),
+        require('./images/eco-14-for-disabled/1.jpg'),
       ], parentId: 'eco14'
     },
     {
       id: 'eco14-conference', images: [
         require('./images/eco-14-conference/4.jpg'),
+        require('./images/eco-14-conference/5.jpg'),
+        require('./images/eco-14-conference/3.jpg'),
         require('./images/eco-14-conference/1.jpg'),
         require('./images/eco-14-conference/2.jpg'),
-        require('./images/eco-14-conference/3.jpg'),
-        require('./images/eco-14-conference/5.jpg'),
       ], parentId: 'eco14'
     }
   ].map(y => {
