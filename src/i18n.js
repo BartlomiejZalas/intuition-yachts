@@ -27,7 +27,7 @@ i18n
                 <p>The mission and the biggest dream of the organization is that each designed yacht becomes a yacht traversing the waters of the world. Will it be your yacht?</p>
                 <p>Our team consists of experienced engineers with a wide range of technical knowledge and extraordinary creativity. As a result, we are able to match the team of professionals to the needs of the client, to meet even the most complicated projects. Our engineers can also support our client during prefabrication as a supervisor. Both during the new construction and during the reconstruction of the boats.</p>
                 <p>Trust us and let us know each other. Below you will find our portfolio:</p>
-                <p>TU BĘDZIE PDF DO ŚCIĄGNIĘCIA</p>
+                <p><a href="/downloads/Portfolio-MartaAnnaZawadzka-05.02.2018.pdf">Intuition Yachts - Portfolio.pdf</a></p>
                 <p>Marta Anna Zawadzka - founder of "Intuition Yachts". She won two titles at Gdańsk University of Technology in the field of design and management in the maritime economy. Yachts are her hobby and at the same time work. She completed numerous professional experience both at home and abroad in such companies as, among others: Gdynia Shipyard SA, Polish Chamber of Maritime Economy, PRS, Surge Projects and in particular Yacht Studio Strawiński.</p>
                 <p>To broaden her horizons, she moved to one of the European yacht capitals - Majorca. She gained experience in a company managing yacht construction projects, and then she tried her hand at designing their interiors. Thanks to these experiences, she expressed her sense of style and developed a passion for elegant and luxurious interior decorations.</p>
                 <p>The passion for sailing and the hours spent at sea allow Marta to get to know individual yachts from the user's side. As a result, the designs are not only well-thought-out visually and technically, but also aim at ergonomics and continuous improvement of standard solutions.</p>
@@ -71,7 +71,7 @@ i18n
                 'eco14-for-disabled': {
                   name: 'Yacht adapted for the navigation of disabled persons',
                   description: `
-                  <p>Nowadays it is becoming more and more popular to adapt the environment to easy use, from all resources, by people with disabilities. This also applies to sailing. Therefore, this task was also undertaken in our studio. The concept of interior arrangement for disabled people intended for day sailing for a crew of 6 was designed. It consists of:
+                  <p>Nowadays it is becoming more and more popular to adapt the environment to easy use, from all resources, by people with disabilities. This also applies to sailing. Therefore, this task was also undertaken in our Studio. The concept of interior arrangement for disabled people intended for day sailing for a crew of 6 was designed. It consists of:
                   <ul>
                   <li>wheelhouse</li>
                   <li>salon</li>
@@ -159,7 +159,7 @@ i18n
               <p>
               <strong>Poland</strong><br>
               Sokółki 63<br>
-              19-420 Kowale Oleckie
+              19-420 Kowale Oleckie<br>
               mobile: +48 500 204 025<br>
               e-mail: marta@intuition-yachts.com
               </p>
@@ -192,8 +192,8 @@ i18n
               <p>Misją i największym marzeniem organizacji jest to, aby każdy zaprojektowany jacht został jednostką przemierzającą wody świata. Czy będzie to Twój jacht?</p>
               <p>Nasz zespół składa się z doświadczonych inżynierów o szerokim zakresie wiedzy technicznej i nietuzinkowej kreatywności. W rezultacie jesteśmy w stanie dopasować zespół profesjonalistów do potrzeb klienta, tak aby sprostać nawet najbardziej skomplikowanym projektom. Nasi inżynierowie mogą również wspierać naszego klienta podczas prefabrykacji jako nadzór. Zarówno podczas nowej budowy, jak i podczas przebudowy jednostek.</p>
               <p>Zaufaj nam i pozwól nam się poznać. Poniżej znajdziesz nasze portfolio:</p>
-              <p>TU BĘDZIE PDF DO ŚCIĄGNIĘCIA</p>
-              <p>Marta Anna Zawadzka - założycielka „Intuition Yachts”. Zdobyła dwa tytuły na Politechnice Gdańskiej z zakresu projektowania oraz zarządzania w gospodarce morskiej. Jachty są jej hobby i zarazem pracą. Odbyła liczne praktyki zawodowe zarówno w kraju jak i za granicą w takich firmach jak m.in.: Stocznia Gdynia S.A., Krajowa Izba Gospodarki Morskiej, PRS, Surge- projects i w szczególności Yacht Studio Strawiński.</p>
+              <p><a href="/downloads/Portfolio-MartaAnnaZawadzka-05.02.2018.pdf">Intuition Yachts - Portfolio.pdf</a></p>
+              <p>Marta Anna Zawadzka - założycielka „Intuition Yachts”. Zdobyła dwa tytuły na Politechnice Gdańskiej z zakresu projektowania oraz zarządzania w gospodarce morskiej. Jachty są jej hobby i zarazem pracą. Odbyła liczne praktyki zawodowe zarówno w kraju jak i za granicą w takich firmach jak m.in.: Stocznia Gdynia S.A., Krajowa Izba Gospodarki Morskiej, PRS, Surge-projects i w szczególności Yacht Studio Strawiński.</p>
               <p>Aby poszerzyć horyzonty, przeniosła się do jednej z europejskich stolic jachtów - Majorki. Zdobyła tam doświadczenie w firmie zarządzającej projektami budowy jachtów, a następnie próbowała swoich sił w projektowaniu ich wnętrz. Dzięki tym doświadczeniom dała wyraz swojemu wyczuciu stylu oraz rozwinęła zamiłowanie do eleganckich i luksusowych wystrojów wnętrz.</p>
               <p>Pasja do żeglowania i spędzone dzięki temu godziny na morzu pozwalają Marcie poznawać poszczególne jednostki od strony użytkownika. Dzięki temu projekty są nie tylko przemyślane wizualnie i technicznie, ale mają również na celu ergonomię oraz ciągłe doskonalenie standardowo stosowanych rozwiązań.</p>
             ` },
@@ -285,9 +285,9 @@ i18n
                   "menu-eco14-charter": 'Jacht czarterowy dla 6-osobowej załogi;',
                   "menu-eco14-for-disabled": 'Jacht przystosowany do żeglugi osób niepełnosprawnych; ',
                   "menu-eco14-conference": 'Jacht konferencyjny dla 12-osobowej załogi.',
-                  shortDescription: `ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. `,
+                  shortDescription: `ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jednostki jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. `,
                   description: `
-                  <p>ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. </p>
+                  <p>ECO-14 jest to projekt koncepcyjny 14-metrowego ekologicznego jachtu motorowego o napędzie elektrycznym. Głównymi założeniami jednostki jest rekreacyjna żegluga na drogach śródlądowych i przybrzeżnych. Współautorami projektu są: Marta Zawadzka i Juliusz Strawiński. </p>
                   <p>Przewidziane są przynajmniej dwie koncepcje różniące się kształtem kadłuba oraz stylizacją zewnętrzną. Linia „ECO-14” stworzona zos­tała z myślą o żegludze w komfortowych warunkach. Dzięki specjalnie dobranemu elektrycznemu systemowi napędowi, możliwa jest cicha bezwibracyjna praca silnika, a brak emisji spalin pozwala na dotarcie do najskrytszych zakątków świata objętych ochroną środowis­ka.</p>
                   <p>Pierwsza koncepcja projektu jest skończona i gotowa do realizacji. Aczkolwiek może też być odpowiednio dostosowywana do potrzeb i wymagań klienta.</p>
                   
