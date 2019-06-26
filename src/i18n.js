@@ -38,6 +38,16 @@ i18n
               more: 'more',
               yachts: {
                 title: 'Yachts',
+                'canna': {
+                  name: 'CANNA',
+                  shortDescription: 'This is a project of a 5.5-meter long runabout. Details of construction will be revealed soon. Moreover building of the prototype will also start soon.',
+                  description: 'This is a project of a 5.5-meter long runabout. Details of construction will be revealed soon. Moreover building of the prototype will also start soon'
+                },
+                'hb-12': {
+                  name: 'HB-12',
+                  shortDescription: 'HB-12 is the concept of a 12-meter electric catamaran that works as a houseboat.',
+                  description: 'HB-12 is the concept of a 12-meter electric catamaran that works as a houseboat. If you dream about a house on the water, but you want it to look like a yacht, this concept is just for you. Our design studio is a supporter of electric drives and solar panels, which is why this catamaran has been designed so as not to pollute our environment. In addition, we have proposed 4 different interior arrangements to show how many spatial planning possibilities each space brings. External stylization is just an example, because our designs are made according to the wishes and visualization of the client. Contact us and we will design an individual project for you. We make non-binding, free concepts.'
+                },
                 'eco14-private': {
                   name: 'Private tourist and family yacht for a 4-crew members',
                   description: `
@@ -133,21 +143,31 @@ i18n
               `
             },
             partners: {
-              title: 'Partners', content: `
+              title: 'Partners', 
+              content: `
               <p>
               <a href="http://www.yacht-studio.pl/pl-index.html" target="_blank">
                 <img src="{{partner1Logo}}" alt="Yacht Studio Strawiński" title="Yacht Studio Strawiński S.C."/>
               </a>
               </p>
               <p>Yacht Studio Strawiński is an independent design company specializing in individual custom yacht projects. It has existed since 1981. Our cooperation with Yacht Studio Strawiński has been going on almost continuously since 2012. At that time, we have developed some conceptual projects together. We also supported the implementation of the Yacht Studio Strawiński projects.</p>
-              `
+              `,
+              seacon: `
+              <p>
+              <a href="http://seacon.com.pl" target="_blank">
+                <img src="{{logo}}" alt="Seacon" title="Seacon"/>
+              </a>
+              </p>
+              <p>Created with passion for shipbuilding, Seacon Engineering is an independent design office located in Gdańsk – the heart of Polish shipbuilding industry.
+              Together with Seacon, we are creating a new project that will be the beginning of a new brand and we hope that it will conquer international yacht market.
+              </p>`
             },
             contact: {
               title: 'Contact',
               contactdata: 'Contact Details',
               contactform: 'Contact Form',
               sendMessageError: 'ERROR: Message has not been sent',
-              sendMessageSuccess:'Your message has been sent. Thank you.',
+              sendMessageSuccess: 'Your message has been sent. Thank you.',
               form: {
                 name: 'Name',
                 email: 'Email',
@@ -219,6 +239,16 @@ i18n
               more: 'więcej',
               yachts: {
                 title: 'Jachty',
+                'canna': {
+                  name: 'CANNA',
+                  shortDescription: 'Jest to projekt 5,5-metrowej łodzi motorowej, której szczegóły zostaną ujawnione wkrótce. Już niedługo rusza również budowa prototypu. ',
+                  description: 'Jest to projekt 5,5-metrowej łodzi motorowej, której szczegóły zostaną ujawnione wkrótce. Już niedługo rusza również budowa prototypu. '
+                },
+                'hb-12': {
+                  name: 'HB-12',
+                  shortDescription: 'HB-12 to koncepcja 12-metrowego katamaranu o napędzie elektrycznym, pełniącego funkcję houseboat’a.',
+                  description: 'HB-12 to koncepcja 12-metrowego katamaranu o napędzie elektrycznym, pełniącego funkcję houseboat’a. Jeśli marzysz o domie na wodzie, ale chcesz, żeby przypominał on z wyglądu jacht to, ta koncepcja jest właśnie dla ciebie. Nasze studio projektowe jest zwolennikiem napędów elektrycznych oraz paneli fotowoltaicznych, dlatego też jednostka została tak zaprojektowana, aby nie zanieczyszczać środowiska. Ponadto zaproponowaliśmy 4 różne aranżację wnętrza, aby pokazać jak wiele możliwości rozplanowania przestrzennego niesie ze sobą każda powierzchnia. Stylizacja zewnętrzna jest tylko przykładem, bo nasze projekty są wykonywane zgodnie z życzeniami i wizualizacją klienta. Zgłoś się do nas, a zaprojektujemy specjalnie dla ciebie indywidualny projekt. Wykonujemy niezobowiązujące, darmowe koncepcje.'
+                },
                 'eco14-private': {
                   name: 'Jacht prywatny turystyczno-rodzinny dla 4-osobowej załogi',
                   description: `
@@ -306,13 +336,23 @@ i18n
               </a>
               </p>
               <p>Yacht Studio Strawiński - niezależna firma projektowa powstała w 1981r. z siedzibą w Sopocie. Specjalizuje się w projektach indywidualnych, wykonywanych pod zamówienie klienta. Nasza współpraca trwa od 2012r. W tym czasie opracowane zostały wspólne projekty koncepcyjne. Oprócz tego wspieraliśmy również realizację projektów autorskich Yacht Studio Strawiński.</p>
-            ` },
+              `,
+              seacon: `
+              <p>
+              <a href="http://seacon.com.pl" target="_blank">
+                <img src="{{logo}}" alt="Seacon" title="Seacon"/>
+              </a>
+              </p>
+              <p>Seacon Engineering to niezależne biuro projektowe zlokalizowane w Gdańsku, sercu polskiego przemysłu stoczniowego, stworzone z pasji do budownictwa okrętowego.
+              Wraz z firmą Seacon tworzymy nowy projekt, który będzie początkiem nowej marki i mamy nadzieję, że podbije zarówno polski rynek jachtowy jak i międzynarodowy.
+              
+              </p>` },
             contact: {
               title: 'Kontakt',
               contactdata: 'Dane kontaktowe',
               contactform: 'Formularz kontaktowy',
               sendMessageError: 'BŁĄD: Wiadomośc nie została wysłana.',
-              sendMessageSuccess:'Wiadomość wysłana. Dziękujemy.',
+              sendMessageSuccess: 'Wiadomość wysłana. Dziękujemy.',
               form: {
                 name: 'Imię i Nazwisko',
                 email: 'Email',

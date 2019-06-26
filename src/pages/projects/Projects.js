@@ -10,6 +10,23 @@ const Projects = ({ t, match }) => {
 
   const yachts = [
     {
+      id: 'hb-12', images: [
+        require('./images/hb-12/hb-12a.jpg'),
+        require('./images/hb-12/hb-12b.jpg'),
+        require('./images/hb-12/hb-12c.jpg'),
+        require('./images/hb-12/hb-12d.jpg'),
+        require('./images/hb-12/hb-12e.jpg')
+      ], parentId: null
+    },
+    {
+      id: 'canna', images: [
+        require('./images/canna/canna-c.jpg'),
+        require('./images/canna/canna-a.jpg'),
+        require('./images/canna/canna-b.jpg'),
+        require('./images/canna/canna-d.png')
+      ], parentId: null
+    },
+    {
       id: 'eco14', images: [
         require('./images/eco-14/eco-14e.jpg'),
         require('./images/eco-14/eco-14b.jpg'),

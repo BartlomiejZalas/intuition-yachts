@@ -32,6 +32,11 @@
     color: white;
 }
 
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
 @media (min-width: 1200px) {
     .social-icons {
         position: fixed;

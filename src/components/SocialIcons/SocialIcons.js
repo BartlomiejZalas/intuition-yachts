@@ -13,6 +13,9 @@ const socialIcons = () => (
         <a href="https://www.instagram.com/intuition_yachts" className="instagram" target="blank">
             <i className="fa fa-instagram"></i>
         </a>
+        <a href="https://twitter.com/IYachts" className="twitter" target="blank">
+            <i className="fa fa-twitter"></i>
+        </a>
     </div>
 );
 
