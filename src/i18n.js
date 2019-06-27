@@ -179,7 +179,7 @@ i18n
               <p>
               <strong>Poland</strong><br>
               Sokółki 63<br>
-              19-420 Kowale Oleckie<br>
+              19-420 Sokółki<br>
               mobile: +48 500 204 025<br>
               e-mail: marta@intuition-yachts.com
               </p>
@@ -364,7 +364,7 @@ i18n
               <p>
               <strong>Polska</strong><br>
               Sokółki 63<br>
-              19-420 Kowale Oleckie<br>
+              19-420 Sokółki<br>
               tel.: +48 500 204 025<br>
               e-mail: marta@intuition-yachts.com
               </p>

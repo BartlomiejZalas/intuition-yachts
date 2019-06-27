@@ -20,9 +20,9 @@ const Projects = ({ t, match }) => {
     },
     {
       id: 'canna', images: [
+        require('./images/canna/canna-b.jpg'),
         require('./images/canna/canna-c.jpg'),
         require('./images/canna/canna-a.jpg'),
-        require('./images/canna/canna-b.jpg'),
         require('./images/canna/canna-d.png')
       ], parentId: null
     },
