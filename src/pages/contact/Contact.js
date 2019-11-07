@@ -50,7 +50,7 @@ class Contact extends Component {
     params.append('email', this.state.form.email.value);
     params.append('subject', this.state.form.subject.value);
     params.append('message', this.state.form.message.value);
-    axios.post('https://intuition-yachts.com/mail-api/sendMail.php', params)
+    axios.post('/mail-api/sendMail.php', params)
       .then(res => {
         this.setState({ messageSent: true, messageLoading: false });
         console.log('Message sent', res);
